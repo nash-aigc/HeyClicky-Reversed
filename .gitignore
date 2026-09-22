@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Swift build artifacts
+.build/
+
+# Raw binary dumps (not useful in git; keep .strings.txt readable extracts)
+_raw/*.bin
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,0 +1,5 @@
+# __TEXT,__ustring  vmaddr=0x10218e6b8  offset=35186360  size=88
+# 2 strings
+
+& T
+& )

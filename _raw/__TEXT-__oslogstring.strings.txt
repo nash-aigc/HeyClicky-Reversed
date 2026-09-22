@@ -1,0 +1,230 @@
+# __TEXT,__oslogstring  vmaddr=0x102188680  offset=35161728  size=15448
+# 227 strings
+
+createCustomerPortalURL failed: %{public}s
+createCheckoutURL failed: %{public}s
+resolveBillingClient: BillingStateManager has no billingClient configured yet
+refresh() called before configure(); ignoring
+refresh() joined active plan refresh
+Could not decode the last-known plan snapshot; ignoring it
+Restored last-known plan snapshot: %{public}s
+Plan refresh failed: %{public}s
+Discarding a plan response fetched for a different account than the one signed in now
+Plan refreshed: %{public}s, messages=%{public}ld/%{public}ld, agents=%{public}ld/%{public}ld
+Plan refresh returned the fail-open placeholder with no known plan; leaving the plan unknown
+Plan refresh returned the fail-open placeholder; keeping the known %{public}s snapshot
+Ignoring duplicate checkout-complete callback for handled session %{private}s
+Checkout-complete URL received
+Refreshing plan after checkout-complete URL
+Plan refresh requested during active fetch; running coalesced follow-up
+%{public}s
+User looks busy on a call: %{public}s
+Keychain refused connector secrets (OSStatus %d); keeping them in UserDefaults instead.
+Could not decode stored custom connectors: %{public}s
+Could not encode custom connectors: %{public}s
+Focus store unreadable. Menu bar Focus item reads: %{public}s
+User has a Focus on: %{public}s
+Keychain read failed for %{public}s: OSStatus %d
+Keychain add failed for %{public}s: OSStatus %d
+Keychain update failed for %{public}s: OSStatus %d
+Keychain delete failed for %{public}s: OSStatus %d
+Quiet context: %{public}s
+guided target disarm label=%{public}s round=%{public}ld
+guided walkthrough step-away — clearing visuals, narration continues reason=%{public}s
+guided parked target — ending on context switch reason=%{public}s
+clear spatial guidance reason=%{public}s
+active Space changed — clearing stale guided annotation marks, keeping audio
+guided follow-up quiet passive exit reason=%{public}s
+guided follow-up switch attributed to recent click reason=%{public}s
+guided follow-up switch ignored during post-target grace reason=%{public}s
+guided target expired label=%{public}s
+guided target hit label=%{public}s distance=%{public}ld hoverRest=%{bool,public}d
+guided follow-up activity consumed after quiet exit reason=%{public}s
+guided follow-up activity coalesced after refresh reason=%{public}s
+guided follow-up activity coalesced while waiting reason=%{public}s
+guided follow-up user activity while waiting reason=%{public}s
+guided follow-up ignored activity during post-target grace reason=%{public}s remainingMs=%{public}ld
+parsed beats=%{public}ld visuals=%{public}ld
+target missing radius fallback defaultRadius=%{public}ld
+guided target suppress max-round label=%{public}s round=%{public}ld
+guided target arm label=%{public}s x=%{public}ld y=%{public}ld radius=%{public}ld round=%{public}ld hover=%{bool,public}d
+annotation point arm label=%{public}s x=%{public}ld y=%{public}ld
+run local walkthrough beats=%{public}ld followUpRound=%{public}ld
+run screenshot walkthrough beats=%{public}ld captures=%{public}ld followUpRound=%{public}ld realtimeSync=%{bool,public}d
+guided session begin hasGoal=%{bool,public}d targetBeats=%{public}ld
+guided session continue — keeping goal + %{public}ld completed steps
+guided session completed step count=%{public}ld
+guided target off-target click — ending guide label=%{public}s sameDisplay=%{bool,public}d
+guided target follow-up start label=%{public}s round=%{public}ld clickX=%{public}ld clickY=%{public}ld
+guided target follow-up replacing in-flight request label=%{public}s
+guided target follow-up quiet exit label=%{public}s round=%{public}ld stage=%{public}s reason=%{public}s
+guided max rounds updated from backend %{public}ld → %{public}ld
+guided target recapture scheduled label=%{public}s
+guided target follow-up failed label=%{public}s error=%{public}s
+guided target follow-up cancelled label=%{public}s
+guided target recapture complete label=%{public}s captures=%{public}ld
+guided target realtime next-step unavailable label=%{public}s
+guided target realtime next-step response label=%{public}s beats=%{public}ld visuals=%{public}ld
+guided target realtime complete/no-visual label=%{public}s
+guided target realtime next-step request label=%{public}s round=%{public}ld attempt=%{public}ld
+guided target follow-up refreshing stale capture after user activity label=%{public}s
+guided target idle timeout — dropping to idle silently
+guided hover-rest complete label=%{public}s
+deleted routine %{public}s
+keep-awake assertion OFF
+keep-awake assertion ON (routines armed, on AC power)
+created routine %{public}s for %{public}s %{public}s
+routine %{public}s paused — its Clicky %{public}s is gone
+routine %{public}s launch refused by routeTranscriptToCodexThread (trigger=%{public}s, activeTasks=%ld, signedIn=%{bool}d)
+routine %{public}s run #%ld dispatched to %{public}s
+routine %{public}s skipped — %{public}s is busy; retrying next tick
+%{public}s — wake already settled, evaluating
+%{public}s — settling overdue routines, then evaluating
+settled %ld overdue routine(s) to run in %lds
+waking — holding %ld due routine(s) until the wake settle runs
+signed in — settling overdue routines
+%{public}s — %ld due routine(s) now waiting for the internet
+routine %{public}s paused after %ld failed runs in a row
+agent routine request ignored — task belongs to no Clicky
+agent routine %{public}s matched no routine on %{public}s
+agent routine update "%{public}s" matched no routine on %{public}s
+agent updated routine %{public}s on %{public}s
+agent created routine %{public}s on %{public}s %{public}s
+agent create matched existing routine %{public}s on %{public}s — updated instead of creating a twin
+routine %{public}s run ended failed=%{bool}d transientConnectivity=%{bool}d
+decline thread=%{public}s
+approved turn ended — back to read-only unless Always allow is on
+approve thread=%{public}s daemonUp=%{bool}d
+Integration suggestion suppressed before presentation toolkit=%{public}s
+Integration suggestion skipped because toolkit is not in the fetched Composio catalog toolkit=%{public}s
+Integration suggestion skipped because cached status is %{public}s toolkit=%{public}s
+Sidecar learning suggestion suppressed before presentation skill=%{public}s
+Spotify voice tip suppressed before presentation
+Presenting integration suggestion toolkit=%{public}s
+Presenting Spotify voice tip
+Greeting trigger bail: onboarding/permissions not ready
+Greeting trigger bail: visual surfaces suppressed
+Greeting trigger bail: already armed and counting down
+Greeting trigger bail: already firing (holding across payload await)
+Greeting trigger bail: no recent input (last HID %{public}lds ago)
+Greeting trigger bail: busy (voiceState=%{public}s bubble=%{bool,public}d)
+Greeting fire: cancelled during the 10s arm delay
+Greeting fire bail: window closed during arm delay
+Greeting fire bail: day rolled over during arm delay
+Greeting fire bail: already greeted today
+Greeting fire bail: visual surfaces suppressed
+Greeting fire bail: busy (voiceState=%{public}s bubble=%{bool,public}d)
+Greeting fire: streaming the good-morning bubble
+Greeting fire bail: quiet context %{public}s
+didWake — evaluating greeting trigger now
+Morning suggestions resting until %{public}s after repeated dismissals
+Morning invitation %{public}s for %{public}ld card(s); presents no earlier than %{public}s
+Morning invitation snoozed; presents no earlier than %{public}s
+Morning invitation held: focus %{public}s
+Morning invitation held: %{public}s
+DEBUG reset: proactive agent suggestion state cleared
+Presenting %{public}ld proactive agent suggestion card(s) slot=%{public}s
+Fn+Tab debug agent-suggestions trigger ignored — debug toggle off
+Fn+Tab debug agent-suggestions trigger ignored — agent-suggestions sub-toggle off
+Proactive agent suggestions skipped — inference already in flight
+Agent suggestion fetch failed early: no access token (reason=%{public}s)
+Proactive agent suggestion inference failed reason=%{public}s: %{public}s
+Proactive agent suggestions chose silence reason=%{public}s
+Suggestion job timed out client-side
+Suggestion job poll failed (%{public}ld): %{public}s
+Suggestion job %{public}s settled: %{public}s
+Suggestion job start failed: %{public}s
+Suggestion job %{public}s started (origin=%{public}s)
+Suggestion job %{public}s failed: %{public}s
+Conversation Clicky offer skipped, a live card already has that title: %{public}s
+Conversation Clicky offer added to Suggestions: %{public}s
+Approved proactive agent suggestion did not dispatch (permission gate / quota) title=%{public}s
+Approved suggestion registered routine %{public}s on %{public}s %{public}s
+Approved suggestion updated routine %{public}s on %{public}s
+Could not delete retired computer-history file %{public}s: %{public}s
+Deleted retired computer-history file %{public}s
+didWake — evaluating slots now
+Integration suggestion catalog updated availableToolkits=%{public}ld promptableToolkits=%{public}ld
+Integration suggestion catalog cleared
+Integration suggestion monitor started thresholdSeconds=%{public}f
+Integration suggestion monitor stopped
+Integration suggestion candidate ready toolkit=%{public}s
+Integration suggestion sampling suppressed reason=%{public}s
+Spotify voice tip dwell seconds=%{public}f
+Spotify voice tip candidate ready
+Sidecar learning suggestion candidate ready skill=%{public}s
+Integration suggestion sampling found no candidate frontmostBundle=%{public}s
+Detected browser integration candidate toolkit=%{public}s
+Detected native integration candidate toolkit=%{public}s
+Integration suggestion prompt suppressed by daily cap toolkit=%{public}s recentCount=%{public}ld cap=%{public}ld
+🟢 FOUND UPDATE: v%s (build %s) | %s
+🟡 WILL DOWNLOAD UPDATE: v%s (build %s) from %s | %s
+🟢 DOWNLOADED UPDATE: v%s (build %s) | %s
+🔴 FAILED TO DOWNLOAD UPDATE: v%s (build %s) | %s | %s
+🟡 USER CANCELED UPDATE DOWNLOAD | %s
+🟡 WILL EXTRACT UPDATE: v%s (build %s) | %s
+🟢 EXTRACTED UPDATE: v%s (build %s) | %s
+🟢 UPDATE READY TO INSTALL ON QUIT: v%s (build %s) | %s
+🔵 No update found (current is latest) | %s
+🔴 Update aborted: %s | %s
+🟢 Update cycle finished successfully (check type: %s) | %s
+🔴 Update cycle finished with error: %s | checkType=%s | %s
+🟡 USER UPDATE CHOICE: %s for v%s (build %s) | stage=%s userInitiated=%{bool}d | %s
+🟡 Sparkle standard user driver will show modal alert
+🟡 Deferring scheduled Sparkle UI for v%s; immediate focus: %{bool}d
+🟡 Standard user driver is handling update presentation for v%s | stage=%s userInitiated=%{bool}d
+🟡 Deferred scheduled update reminder for v%s | stage=%s userInitiated=%{bool}d
+🟡 User gave attention to Sparkle update for v%s
+🟡 Sparkle standard user driver will finish update session
+Sentry disabled because app bundle points at local development services
+Sparkle updater failed to start: %@
+Sparkle updater started | %s | %s
+Sparkle updater check interval set to %ld seconds | %s
+Skipping launch background update check because automatic checks are disabled | %s
+Triggering launch background update check | %s
+duplex engine retiring for rebuild (%{public}s) droppedBuffers=%{public}ld
+duplex engine started in %{public}ldms — AEC active, inputFormat=%{public}fHz/%{public}uch, outputTransport=%{public}s
+duplex engine restart in prepareForUpcomingAudio failed: %{public}s
+AVAudioEngineConfigurationChange: rebuilding realtime output graph
+player engine.start failed: %{public}s
+engine restart attempt #%ld after route change: engine started but the output never rendered an IO cycle
+engine restart attempt #%ld after route change failed: %{public}s
+Failed to build Supabase auth URL
+Starting Google sign-in flow in default browser
+Signing out
+Keychain token delete failed during sign-out; leaving a tombstone so the session cannot resurrect on relaunch
+Received auth callback: %s...
+Failed to parse callback URL components
+No access_token in callback URL
+Successfully extracted tokens from callback
+No stored session found
+Found stored session, validating...
+Keychain cleanup from the last sign-out is still failing; refusing to restore the signed-out session
+Completed the keychain cleanup left over from the last sign-out
+Failed to fetch user profile: %s
+Unexpected status %ld from /auth/v1/user (%s)
+Access token rejected by Supabase (%s), attempting refresh
+Supabase /auth/v1/user returned 200 with an invalid JSON body
+Authenticated as %s
+No refresh token available, signing out
+Token refresh request failed: %{public}s; keeping cached session for retry
+Token refresh returned a non-HTTP response; keeping cached session for retry
+Token refresh failed with HTTP %{public}ld (%{public}s); keeping cached session for retry
+Token refresh was rejected by Supabase (%{public}s); signing out
+Token refresh returned 200 without a usable access token; keeping cached session for retry
+Token refresh response ignored because the local session changed before it completed
+Token refresh succeeded
+Keychain write failed for %{public}s; keeping the UserDefaults fallback
+Migrated %{public}s from UserDefaults into the Keychain
+[PLCrashReporter] Failed to fetch kern.osrelease value %d: %s
+[PLCrashReporter] Unexpected kern.osrelease string format: %s
+[PLCrashReporter] Unexpected error incrementing mach port reference: %d
+[PLCrashReporter] Unexpected error decrementing mach port reference: %d
+[PLCrashReporter] Unexpected error sending termination message to background thread: %d
+[PLCrashReporter] Cannot find image for 0x%llx
+[PLCrashReporter] Symbol "%s" prefix rules are unknown for this OS!
+[PLCrashReporter] Write failed with error %s
+[PLCrashReporter] Failure occured deleting live crash report: %s
+[PLCrashReporter] Warning -- bundle identifier, using process name %s
+[PLCrashReporter] Warning -- bundle version unavailable
+[PLCrashReporter] %s: dladdr(%p, ...) failed
